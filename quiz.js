@@ -13,9 +13,9 @@ function checkAnswer(){
     console.log('user answer:',userSelectedValue);
 
     if (userSelectedValue === correctAnswer) {
-        document.getElementById('feedback').textContent = 'Correct! Nice Job' ;
+        document.getElementById('feedback').textContent = "Correct! Well done." ;
     } else {
-        document.getElementById('feedback').textContent = 'Oh no that is wrong' ;
+        document.getElementById('feedback').textContent = "That's incorrect. Try again!" ;
     }
 
 }
